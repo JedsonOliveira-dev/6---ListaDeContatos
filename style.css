@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-image: url('Projeto_contatos_original/imagens/2017-02-23-06-14-31.jpg');
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-title {
+    display: block;
+    color: #385555;
+    margin: 5% 32%;
+    padding: 1px;
+}
+
+.main-title h1 {
+    text-align: center;
+   
+}
+
+.container-sessao {
+    display: block;
+    background-color: white;
+    height: 400px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+}
+
+.contato div {
+    margin: 0px;
+    padding: 5px;
+}
+
+.contato .dados-contato h2 {
+    margin-bottom: 0;
+}
+
+.contato .dados-contato p {
+    margin-top: 0;
+}
+
+.contato .img-edit {
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    opacity: .1;
+}
+
+.contato .img-contato img{
+    border-radius: 180px;
+}
+
+.contato:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #142727;
+}
+
+.contato .img-edit:hover {
+    opacity: .3;
+}
